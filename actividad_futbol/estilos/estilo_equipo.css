@@ -1,0 +1,55 @@
+/* Estilos generales */
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center; /* Centrar el contenido */
+    margin-top: 50px; /* Agregar un margen superior para evitar que el escudo se desborde */
+}
+
+/* Nombre del equipo */
+#equipo {
+    text-align: center;
+    background-color: #673ab7;
+    color: white;
+    margin-top: 20px;
+    position: relative;
+    z-index: 1; /* Asegurar que el nombre del equipo esté delante del escudo */
+}
+
+/* Entrenador */
+#entrenador {
+    text-align: center;
+}
+
+/* Imagen del equipo */
+#equipo-imagen {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+}
+
+/* Tabla de jugadores */
+#jugadores {
+    margin-top: 20px;
+    border-collapse: collapse;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Celdas de cabecera */
+#jugadores th {
+    background-color: #673ab7;
+    color: white;
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Celdas de cabecera y celdas normales */
+#jugadores th,
+#jugadores td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
